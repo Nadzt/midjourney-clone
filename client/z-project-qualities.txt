@@ -1,0 +1,17 @@
+////// client
+
+React
+React-Router-DOM (routes)
+Tailwind css
+File Saver
+
+////// server
+
+cloudinary (image server)
+cors 
+express
+dotenv
+mongoose
+
+openai API
+cloudinary API
