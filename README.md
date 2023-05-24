@@ -21,13 +21,13 @@ now go back, cd into the server and install the dependencies there:
 
     cd ../server/
     npm i
-now, with a code editor go into the server file, create a ".env" file and fill this:
+now, with a code editor go into the server file, create a ".env" file, write this:
 
-    OPENAI_API_KEY=""
-    MONGODB_URL=""
-    CLOUDINARY_CLOUD_NAME=""
-    CLOUDINARY_API_KEY=""
-    CLOUDINARY_API_SECRET=""
+    OPENAI_API_KEY="here goes your openapi api secret key"
+    MONGODB_URL="here goes the mongodb url"
+    CLOUDINARY_CLOUD_NAME="your cloudinary cloud name"
+    CLOUDINARY_API_KEY="cloudinary api key"
+    CLOUDINARY_API_SECRET="cloudinary api secret"
 now you're ready, start the server with one terminal by going into the server folder and then running "npm start"
 
     cd server/
