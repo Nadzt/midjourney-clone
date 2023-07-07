@@ -194,8 +194,8 @@ const CreatePost = () => {
                         <div className="mt-1 flex flex-col">
                             <p className='mt-2 text-[#666E75] text-[14px] w-full'>
                                 Create a variation of one of your images
-                                <strong>Due to the OpenAI new API policy, you must wait <b>1 minute</b> between each request!</strong>
                             </p>
+                            <strong>Due to the OpenAI new API policy, you must wait <b>1 minute</b> between each request!</strong>
                             <div className="flex gap-1">
                                 <VariationButton
                                     value={"1"}
