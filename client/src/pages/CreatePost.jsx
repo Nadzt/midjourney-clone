@@ -24,7 +24,7 @@ const CreatePost = () => {
         const { name, prompt } = form
         setGeneratingImg(true)
         try {
-            const response = await fetch("http://localhost:8080/api/v1/post", {
+            const response = await fetch("https://midjourney-clone.onrender.com/api/v1/post", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -54,7 +54,7 @@ const CreatePost = () => {
 
         try {
             setGeneratingImg(true)
-            const response = await fetch("http://localhost:8080/api/v1/midjourney", {
+            const response = await fetch("https://midjourney-clone.onrender.com/api/v1/midjourney", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -80,7 +80,7 @@ const CreatePost = () => {
     const generateV = async (e) => {
         try {
             setGeneratingImg(true)
-            const response = await fetch("http://localhost:8080/api/v1/midjourney/variations", {
+            const response = await fetch("https://midjourney-clone.onrender.com/api/v1/midjourney/variations", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
