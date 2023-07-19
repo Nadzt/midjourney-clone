@@ -61,7 +61,7 @@ const CreatePost = () => {
                 },
                 body: JSON.stringify({ prompt: form.prompt})
             })
-            if(!response.ok) throw new Error("invalid prompt")
+            if(!response.ok) throw new Error("Sorry, you must wait 1 minute between every request")
             const data = await response.json()
             setForm({
                 ...form,
